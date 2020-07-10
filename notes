@@ -1,0 +1,16 @@
+Command that starts with the desired simulator:
+react-native run-ios —-simulator=”iPhone 5s”
+
+particle effect
+https://www.npmjs.com/package/react-native-particle-background
+
+entities
+   https://www.npmjs.com/package/html-entities
+
+
+   <ParticleBackground
+          particleColor="#000"
+          particleSize={2}
+          particleDispersion={5}
+          backgroundColor="#200325"
+        />

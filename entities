@@ -1,0 +1,10 @@
+Source of entities:
+     https://www.npmjs.com/package/html-entities
+Install entities:
+     $ npm install html-entities
+Import entities:
+     const Entities = require("html-entities").AllHtmlEntities;
+Create a new entity:
+      const entities = new Entities();
+To display URUZ:
+     {entities.decode("&#x16A2")}
