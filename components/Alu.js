@@ -18,13 +18,13 @@ const Header = () => {
 // ========================================================
 const styles = StyleSheet.create({
   aluWrapper: {
-    // flex: 2,
-    backgroundColor: 'orange',
+    // backgroundColor: 'orange',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
   },
   alu: {
+    color: '#fff',
     fontSize: 50,
   },
 });

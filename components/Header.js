@@ -1,19 +1,21 @@
 import React from 'react';
 import {SafeAreaView, Text, StyleSheet} from 'react-native';
 
-const Header = () => {
+const Header = ({appTitle}) => {
   return (
     <SafeAreaView style={styles.header}>
-      <Text style={styles.text}>Random Rune</Text>
+      <Text style={styles.text}>{appTitle}</Text>
     </SafeAreaView>
   );
 };
 
+Header.defaultProps = {
+  appTitle: 'Header',
+};
+
 const styles = StyleSheet.create({
   header: {
-    height: 70,
-    // padding: 20,
-    backgroundColor: 'dodgerblue',
+    height: 50,
   },
   text: {
     color: '#fff',
